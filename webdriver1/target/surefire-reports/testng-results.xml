@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="21099" started-at="2022-07-22T11:58:56 IST" finished-at="2022-07-22T11:59:17 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="21099" started-at="2022-07-22T11:58:56 IST" finished-at="2022-07-22T11:59:17 IST">
+      <class name="webdriver1.Orangehrm">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:webdriver1.Orangehrm@a7e666]" name="beforeTest" is-config="true" duration-ms="8152" started-at="2022-07-22T11:58:56 IST" finished-at="2022-07-22T11:59:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:webdriver1.Orangehrm@a7e666]" name="f" duration-ms="12074" started-at="2022-07-22T11:59:05 IST" finished-at="2022-07-22T11:59:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver1.Orangehrm@a7e666]" name="afterTest" is-config="true" duration-ms="816" started-at="2022-07-22T11:59:17 IST" finished-at="2022-07-22T11:59:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- webdriver1.Orangehrm -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
