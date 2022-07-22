@@ -51,6 +51,7 @@ public class Orangehrm {
 		driver.findElement(By.id("welcome")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id='welcome-menu']/ul/li[3]/a")).click();
+		System.out.println("vishal");
 
 
 
