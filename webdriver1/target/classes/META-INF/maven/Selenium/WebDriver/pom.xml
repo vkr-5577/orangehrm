@@ -33,7 +33,7 @@
      <version>3.0.0-M5</version>
      <configuration>
      <includes>
-     <exclude>**/*Orangehrm.java</exclude>
+     <exclude>**/*hrm.java</exclude>
      </includes>
      </configuration>
     </plugin>

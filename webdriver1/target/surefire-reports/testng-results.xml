@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="21099" started-at="2022-07-22T11:58:56 IST" finished-at="2022-07-22T11:59:17 IST">
+  <suite name="Surefire suite" duration-ms="58543" started-at="2022-07-27T12:45:07 IST" finished-at="2022-07-27T12:46:06 IST">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="21099" started-at="2022-07-22T11:58:56 IST" finished-at="2022-07-22T11:59:17 IST">
-      <class name="webdriver1.Orangehrm">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:webdriver1.Orangehrm@a7e666]" name="beforeTest" is-config="true" duration-ms="8152" started-at="2022-07-22T11:58:56 IST" finished-at="2022-07-22T11:59:05 IST">
+    <test name="Surefire test" duration-ms="58543" started-at="2022-07-27T12:45:07 IST" finished-at="2022-07-27T12:46:06 IST">
+      <class name="webdriver1.hrm">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:webdriver1.hrm@68bbe345]" name="beforeTest" is-config="true" duration-ms="7264" started-at="2022-07-27T12:45:14 IST" finished-at="2022-07-27T12:45:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:webdriver1.Orangehrm@a7e666]" name="f" duration-ms="12074" started-at="2022-07-22T11:59:05 IST" finished-at="2022-07-22T11:59:17 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:webdriver1.hrm@68bbe345]" name="f" duration-ms="20829" started-at="2022-07-27T12:45:21 IST" finished-at="2022-07-27T12:45:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver1.Orangehrm@a7e666]" name="afterTest" is-config="true" duration-ms="816" started-at="2022-07-22T11:59:17 IST" finished-at="2022-07-22T11:59:17 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver1.hrm@68bbe345]" name="afterTest" is-config="true" duration-ms="769" started-at="2022-07-27T12:46:05 IST" finished-at="2022-07-27T12:46:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- webdriver1.hrm -->
+      <class name="webdriver1.Orangehrm">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:webdriver1.Orangehrm@6c49835d]" name="beforeTest" is-config="true" duration-ms="6966" started-at="2022-07-27T12:45:07 IST" finished-at="2022-07-27T12:45:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:webdriver1.Orangehrm@6c49835d]" name="f" duration-ms="21274" started-at="2022-07-27T12:45:42 IST" finished-at="2022-07-27T12:46:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver1.Orangehrm@6c49835d]" name="afterTest" is-config="true" duration-ms="1247" started-at="2022-07-27T12:46:04 IST" finished-at="2022-07-27T12:46:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

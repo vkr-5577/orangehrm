@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30259" started-at="2022-07-27T12:35:23 IST" finished-at="2022-07-27T12:35:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30259" started-at="2022-07-27T12:35:23 IST" finished-at="2022-07-27T12:35:53 IST">
+      <class name="webdriver1.hrm">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:webdriver1.hrm@1500955a]" name="beforeTest" is-config="true" duration-ms="10485" started-at="2022-07-27T12:35:23 IST" finished-at="2022-07-27T12:35:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:webdriver1.hrm@1500955a]" name="f" duration-ms="19683" started-at="2022-07-27T12:35:34 IST" finished-at="2022-07-27T12:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver1.hrm@1500955a]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-07-27T12:35:53 IST" finished-at="2022-07-27T12:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- webdriver1.hrm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

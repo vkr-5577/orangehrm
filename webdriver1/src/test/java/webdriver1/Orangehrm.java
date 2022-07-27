@@ -23,18 +23,17 @@ public class Orangehrm {
 		//interface is a class which contains all browser implementation for  all browser
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://opensource-demo.orangehrmlive.com/");
-		String title= driver.getTitle();
-		String url=driver.getCurrentUrl();
-
-		System.out.println(title +"  " +url);
-		Assert.assertEquals(title, "OrangeHRM");
-		Assert.assertEquals(url,"https://opensource-demo.orangehrmlive.com/");
 
 	}
 
 	@Test
 	public void f() throws InterruptedException {
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+		String title= driver.getTitle();
+		String url=driver.getCurrentUrl();
+		System.out.println(title +"  " +url);
+		Assert.assertEquals(title, "OrangeHRM");
+		Assert.assertEquals(url,"https://opensource-demo.orangehrmlive.com/");
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 		String username =driver.findElement(By.id("txtUsername")).getAttribute("value");
 		System.out.println("Print username:"+username);
@@ -48,10 +47,22 @@ public class Orangehrm {
 		Assert.assertEquals(login, "LOGIN");
 		driver.findElement(By.name("Submit")).click();
 		Thread.sleep(3000);
+		String title1= driver.getTitle();
+		String url1=driver.getCurrentUrl();
+		System.out.println(title1 +"  " +url1);
+		if (title.equalsIgnoreCase(title1))
+		{
+			System.out.println("title matched");
+		}
+		else 
+		{
+			System.out.println("title is not matched");
+		}
+
 		driver.findElement(By.id("welcome")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id='welcome-menu']/ul/li[3]/a")).click();
-		System.out.println("vishal");
+
 
 
 
